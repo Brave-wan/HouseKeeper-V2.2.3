@@ -100,6 +100,9 @@ public class MyApplication extends BaiduTTApplication {
         builder.statusBarDrawable = R.mipmap.housekeeper;
     }
 
+
+
+
     public void iniTencent() {
         StatService.setContext(this);
         StatConfig.setDebugEnable(false);
