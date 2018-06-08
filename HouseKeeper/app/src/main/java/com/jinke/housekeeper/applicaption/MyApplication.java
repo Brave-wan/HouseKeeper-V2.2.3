@@ -75,6 +75,8 @@ public class MyApplication extends BaiduTTApplication {
     }
 
 
+
+
     @Override
     public void onCreate() {
         super.onCreate();
