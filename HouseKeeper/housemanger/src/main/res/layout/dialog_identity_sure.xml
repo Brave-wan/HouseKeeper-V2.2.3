@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_delete_pic"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/icon_shen_he_tong_guo"
+            android:gravity="center_horizontal"
+            android:text="通过审核"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tx_title_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:text="业主信息已经审核通过,线下确认业主接房手续书是否签字完毕" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_dimen_1"
+            android:background="@color/gray_line"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tx_passed_sure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="关闭"
+            android:textColor="@color/housing_manager_them"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

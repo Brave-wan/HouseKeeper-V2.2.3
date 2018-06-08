@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fragment_msg_parting_line">#F5F5F5</color>
+    <color name="activity_main_default_bg_color">#F4F4F6</color>
+    <color name="base_text_color_light">#909090</color>
+    <color name="default_back_group">#f5f5f6</color>
+</resources>

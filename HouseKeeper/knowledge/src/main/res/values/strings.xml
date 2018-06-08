@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">knowledge</string>
+    <string name="fragment_knowledge_title">知识库</string>
+    <string name="fragment_knowledge_quality_inspection">品质巡检知识库</string>
+    <string name="fragment_knowledge_equipment_inspection">设备巡检知识库</string>
+    <string name="fragment_knowledge_equipment_maintenance">设备维保知识库</string>
+    <string name="fragment_knowledge_equipment_project">项目知识库</string>
+    <string name="fragment_knowledge_equipment_work">作业指导书</string>
+    <string name="fragment_workbench_working_pool">工单池</string>
+    <string name="un_realized">此功能暂未开通！</string>
+    <string name="knowledge_lib_page_title">知识库</string>
+    <string name="knowledge_lib_all_input_name">请输入用户名</string>
+    <string name="knowledge_lib_all_search">搜索</string>
+    <string name="knowledge_lib_detail_title">详情</string>
+</resources>

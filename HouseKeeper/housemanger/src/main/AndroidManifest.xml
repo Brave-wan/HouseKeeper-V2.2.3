@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jinke.housekeeper.housemanger">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <!--移动接房-->
+        <activity android:name=".ui.activity.HousingManagerActivity" />
+        <!--身份核实-->
+        <activity android:name=".ui.activity.IdVerificationActivity" />
+        <activity android:name=".ui.activity.ContractManagerActivity" />
+        <activity android:name=".ui.activity.AgentActivity" />
+        <!--身份核实-->
+        <activity android:name=".ui.activity.IdentityAuditActivity" />
+        <activity android:name=".ui.activity.LouDongActivity" />
+
+    </application>
+</manifest>
+
+

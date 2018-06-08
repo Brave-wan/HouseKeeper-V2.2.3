@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="housing_manager_gray_line">#F2F2F2</color>
+    <color name="housing_manager_them">#006DD8</color>
+    <color name="housing_manager_tx_gray">#3F3F3F</color>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smart_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp">
+
+            <EditText
+                android:id="@+id/ed_tx_verification_search"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@+id/tx_verification_search"
+                android:background="@drawable/shape_verification_search_bg"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/tx_verification_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_verification_search_bg"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="搜索" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/housing_manager_gray_line" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/verification_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

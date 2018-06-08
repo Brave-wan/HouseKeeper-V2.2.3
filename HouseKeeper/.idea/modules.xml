@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HouseKeeper.iml" filepath="$PROJECT_DIR$/HouseKeeper.iml" />
+      <module fileurl="file://E:/work/android-housekeeper/HouseKeeper/HouseKeeper.iml" filepath="E:/work/android-housekeeper/HouseKeeper/HouseKeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Photo_Library/Photo_Library.iml" filepath="$PROJECT_DIR$/Photo_Library/Photo_Library.iml" />
+      <module fileurl="file://E:/work/android-housekeeper/HouseKeeper/Photo_Library/Photo_Library.iml" filepath="E:/work/android-housekeeper/HouseKeeper/Photo_Library/Photo_Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alarmmanagerclock/alarmmanagerclock.iml" filepath="$PROJECT_DIR$/alarmmanagerclock/alarmmanagerclock.iml" />
+      <module fileurl="file://E:/work/android-housekeeper/HouseKeeper/alarmmanagerclock/alarmmanagerclock.iml" filepath="E:/work/android-housekeeper/HouseKeeper/alarmmanagerclock/alarmmanagerclock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:/work/android-housekeeper/HouseKeeper/app/app.iml" filepath="E:/work/android-housekeeper/HouseKeeper/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/communitymanage/communitymanage.iml" filepath="$PROJECT_DIR$/communitymanage/communitymanage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/housemanger/housemanger.iml" filepath="$PROJECT_DIR$/housemanger/housemanger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/knowledge/knowledge.iml" filepath="$PROJECT_DIR$/knowledge/knowledge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://E:/work/android-housekeeper/HouseKeeper/library/library.iml" filepath="E:/work/android-housekeeper/HouseKeeper/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qualitycruise/qualitycruise.iml" filepath="$PROJECT_DIR$/qualitycruise/qualitycruise.iml" />
+    </modules>
+  </component>
+</project>

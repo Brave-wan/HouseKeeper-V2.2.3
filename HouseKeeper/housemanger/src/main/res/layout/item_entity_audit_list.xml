@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/housing_manager_entity_audit_room_number"
+            android:textColor="@color/housing_manager_tx_gray" />
+
+        <TextView
+            android:id="@+id/tx_audit_room_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:gravity="center|right"
+            android:hint="4005800"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/housing_manager_gray_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/housing_manager_entity_audit_owner_name"
+            android:textColor="@color/housing_manager_tx_gray" />
+
+        <TextView
+            android:id="@+id/tx_audit_owner_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:gravity="center|right"
+            android:maxLines="1"
+            android:text="Jreey"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/housing_manager_gray_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/housing_manager_entity_audit_id_number"
+            android:textColor="@color/housing_manager_tx_gray" />
+
+        <TextView
+            android:id="@+id/tx_contract_zip_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:gravity="center|right"
+            android:hint="500238199110500111"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/housing_manager_gray_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/housing_manager_contract_contact_number"
+            android:textColor="@color/housing_manager_tx_gray" />
+
+        <TextView
+            android:id="@+id/tx_contract_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:gravity="center|right"
+            android:hint="17365220612"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/housing_manager_gray_line" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_audit_positive"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:scaleType="fitXY"
+        android:background="@color/housing_manager_gray_line" />
+
+    <ImageView
+        android:id="@+id/img_audit_anti"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:background="@color/housing_manager_gray_line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/housing_manager_gray_line" />
+</LinearLayout>

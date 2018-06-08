@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_workbench_inspection_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_workbench_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/item_workbench_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_workbench_image"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:maxEms="4"
+            android:paddingTop="@dimen/base_dimen_38"
+            android:text="@string/fragment_workbench_working_pool"
+            android:textColor="#FF575757" />
+    </RelativeLayout>
+
+</LinearLayout>
+

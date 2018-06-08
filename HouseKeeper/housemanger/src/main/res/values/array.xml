@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reason">
+        <item>身份证模糊不清晰</item>
+        <item>个人信息不明确</item>
+        <item>与房屋信息不符</item>
+        <item>其他</item>
+    </string-array>
+</resources>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:id="@+id/tx_contract_id_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/housing_manager_agent_personal"
+            android:textColor="@color/housing_manager_tx_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/tx_contract_id_number"
+            android:background="@color/white"
+            android:gravity="center|right"
+            android:hint="请输入代理人姓名"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/housing_manager_gray_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:id="@+id/tx_contract_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/housing_manager_contract_country"
+            android:textColor="@color/housing_manager_tx_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/tx_contract_country"
+            android:background="@color/white"
+            android:gravity="center|right"
+            android:hint="请输入您的国籍"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/housing_manager_gray_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:id="@+id/tx_contract_id_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/housing_manager_contract_id_type"
+            android:textColor="@color/housing_manager_tx_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/tx_contract_id_type"
+            android:background="@color/white"
+            android:gravity="center|right"
+            android:hint="请输入您的证件类型"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/housing_manager_gray_line" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:id="@+id/tx_agent_id_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/housing_manager_contract_id_number"
+            android:textColor="@color/housing_manager_tx_gray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/tx_agent_id_number"
+            android:background="@color/white"
+            android:gravity="center|right"
+            android:hint="请输入您的证件号码"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/housing_manager_gray_line" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/housing_manager_contract_address"
+            android:textColor="@color/housing_manager_tx_gray" />
+
+        <TextView
+            android:id="@+id/tx_contract_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:gravity="center|right"
+            android:hint="重庆市渝北区金童大道西段"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/housing_manager_gray_line" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/housing_manager_contract_zip_code"
+            android:textColor="@color/housing_manager_tx_gray" />
+
+        <TextView
+            android:id="@+id/tx_contract_zip_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:gravity="center|right"
+            android:hint="4005800"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/housing_manager_gray_line" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/housing_manager_contract_contact_number"
+            android:textColor="@color/housing_manager_tx_gray" />
+
+        <TextView
+            android:id="@+id/tx_contract_contact_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:gravity="center|right"
+            android:hint="17365520612"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/housing_manager_gray_line" />
+    </RelativeLayout>
+
+</LinearLayout>

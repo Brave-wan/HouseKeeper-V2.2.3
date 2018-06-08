@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="houseKeeper"></dbname>
+
+    <version value="1"></version>
+
+    <list>
+        <mapping class="www.jinke.com.library.db.SelfCheckingBean"></mapping>
+        <mapping class="www.jinke.com.library.db.User"></mapping><!--用户信息基础表-->
+        <mapping class="www.jinke.com.library.db.SessionInfo"></mapping><!--用户session基础信息表-->
+        <mapping class="www.jinke.com.library.db.UserInfo"></mapping><!--用户信息基础表-->
+        <mapping class="www.jinke.com.library.db.LoginInfo"></mapping><!--登陆信息表-->
+    </list>
+
+</litepal>

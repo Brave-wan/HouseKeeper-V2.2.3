@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_key_code"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@color/frame_blue" />
+
+        <TextView
+            android:id="@+id/tx_key_manage_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_key_code"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="请管理员扫描二维码核实身份"
+            android:textColor="@color/key_manager_tx_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tx_key_manage_one"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:text="本次二维码有效期1分钟（单次有效）"
+            android:textColor="@color/key_manager_tx_black" />
+    </RelativeLayout>
+
+
+</LinearLayout>

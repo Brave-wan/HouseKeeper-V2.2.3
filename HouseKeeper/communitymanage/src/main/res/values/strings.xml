@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">communitymanage</string>
+    <string name="community_key_manager_title">钥匙管理</string>
+    <string name="community_key_manager_return">还钥匙</string>
+    <string name="community_key_manager_borrow">借钥匙</string>
+    <string name="community_key_manager_qr_title">扫描二维码</string>
+    <string name="community_key_manager_caveat_toast">温馨提醒:请勿把此信息生成二维码分享给他人，以免造成财务损失！</string>
+</resources>

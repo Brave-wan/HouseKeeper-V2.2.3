@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/tx_not_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="领取人姓名" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tx_not_name"
+                android:background="@color/white"
+                android:gravity="center|right"
+                android:hint="请填写领取姓名"
+                android:textColor="@color/key_manager_tx_black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/tx_not_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="房号" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tx_not_room"
+                android:background="@color/white"
+                android:gravity="center|right"
+                android:hint="请填写领取姓名"
+                android:textColor="@color/key_manager_tx_black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/tx_not_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机号" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tx_not_phone"
+                android:background="@color/white"
+                android:gravity="center|right"
+                android:hint="请填写领取姓名"
+                android:textColor="@color/key_manager_tx_black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/tx_not_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="验证码" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tx_not_code"
+                android:background="@color/white"
+                android:gravity="center|right"
+                android:hint="请填写领取姓名"
+                android:textColor="@color/key_manager_tx_black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="与业主的关系" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="借钥匙原因" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上传身份证" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/gray_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/key_manager_them" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@color/key_manager_them" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/key_manager_them"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="@color/white" />
+</RelativeLayout>

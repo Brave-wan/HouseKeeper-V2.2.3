@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HouseManger</string>
+    <string name="housing_manager_home_title">接房管理</string>
+    <string name="housing_manager_home_contract">合同管理</string>
+    <string name="housing_manager_entity_verification">身份核实</string>
+    <string name="housing_manager_property_payment">物业缴费与物品点交</string>
+    <string name="housing_manager_key_hosting">钥匙托管</string>
+    <string name="housing_manager_contract_number">合同编号</string>
+    <string name="housing_manager_contract_buyer">乙方(买方)</string>
+    <string name="housing_manager_contract_country">国籍</string>
+    <string name="housing_manager_contract_id_type">证件类型</string>
+    <string name="housing_manager_contract_id_number">证件号码</string>
+    <string name="housing_manager_contract_owner_type">乙方类型</string>
+    <string name="housing_manager_contract_address">地址</string>
+    <string name="housing_manager_contract_zip_code">邮编</string>
+    <string name="housing_manager_contract_contact_number">联系电话</string>
+    <string name="housing_manager_contract_common_way">共有方式</string>
+    <string name="housing_manager_contract_agreement_ratio">约定比例</string>
+    <string name="housing_manager_contract_ed_number">请输入合同编号</string>
+    <string name="housing_manager_contract_userName">请输姓名</string>
+    <string name="housing_manager_contract_add_agent">添加代理人</string>
+    <string name="housing_manager_agent_personal">代理人</string>
+    <string name="housing_manager_entity_audit_room_number">房号</string>
+    <string name="housing_manager_entity_audit_owner_name">业主姓名</string>
+    <string name="housing_manager_entity_audit_id_number">身份证号码</string>
+    <string name="housing_manager_entity_audit_title">身份审核</string>
+    <string name="housing_manager_lou_dong_title">房屋管理</string>
+    <string name="housing_id_entity_refuse">拒绝审核请确认</string>
+    <string name="housing_id_entity_agree">审核通过请确认</string>
+</resources>

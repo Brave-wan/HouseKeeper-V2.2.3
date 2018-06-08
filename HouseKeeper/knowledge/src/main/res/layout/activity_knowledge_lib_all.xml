@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_back_group"
+    android:orientation="vertical">
+
+    <include layout="@layout/input_search" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_dimen_2"
+        android:background="@color/home_line" />
+
+    <www.jinke.com.library.widget.LoadingLayout
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/smart_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/base_dimen_20"
+                android:orientation="vertical">
+
+                <www.jinke.com.library.widget.CustomGridView
+                    android:id="@+id/rv_lib_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:horizontalSpacing="@dimen/base_dimen_10"
+                    android:numColumns="2"
+                    android:verticalSpacing="@dimen/base_dimen_10" />
+            </ScrollView>
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </www.jinke.com.library.widget.LoadingLayout>
+
+</LinearLayout>

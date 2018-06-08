@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/layout_title_bar_bg"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBaseline="@+id/button_backward"
+        android:layout_alignBottom="@+id/button_backward"
+        android:layout_alignParentStart="true"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal|center"
+        android:singleLine="true"
+        android:textColor="@color/layout_title_bar_text_bg"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/button_backward"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/back_image"
+        android:drawablePadding="3dp"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:singleLine="true"
+        android:textColor="@color/layout_title_bar_text_bg"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/button_forward"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:drawablePadding="3dp"
+        android:gravity="right|center_vertical"
+        android:paddingRight="12dp"
+        android:singleLine="true"
+        android:textColor="@color/layout_title_bar_text_bg"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/layout_title_bar_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/layout_title_bar_line" />
+
+</RelativeLayout>

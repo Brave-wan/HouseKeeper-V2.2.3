@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.dlazaro66.qrcodereaderview.QRCodeReaderView
+        android:id="@+id/qr_code_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="26dp"
+        android:paddingTop="20dp">
+
+        <com.housekeeper.community.ui.widget.ScanView
+            android:id="@+id/scan_view"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            app:duration="2500"
+            app:lineHeight="0.25"
+            app:linePadding="1dp"
+            app:scanFrameDrawable="@drawable/icon_frame"
+            app:scanLineDrawable="@drawable/icon_line" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tx_not_owen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="非业主非员工借钥匙，点这里"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
